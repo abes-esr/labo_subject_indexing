@@ -1,0 +1,317 @@
+{
+  "DocumentID": "https://www.sudoc.fr/000308838",
+  "PredictionByModel": {
+    "victor3_chain": {
+      "Result": [
+        {
+          "label": "Élite (sciences sociales)",
+          "id": "027225224",
+          "score": 0.9189762967389044
+        },
+        {
+          "label": "Classes dirigeantes",
+          "id": "027223345",
+          "score": 0.9186880052734565
+        },
+        {
+          "label": "Monarchie",
+          "id": "050124277",
+          "score": 0.9074089154291344
+        },
+        {
+          "label": "Pouvoir (sciences sociales)",
+          "id": "027365581",
+          "score": 0.9068471643349856
+        },
+        {
+          "label": "Hauts fonctionnaires",
+          "id": "027322610",
+          "score": 0.906553947770748
+        },
+        {
+          "label": "Élite (sciences sociales)--Histoire",
+          "id": "027225224--02726470X",
+          "score": 0.9064290266314496
+        }
+      ],
+      "ResponseTime": "0.41 secondes"
+    },
+    "victor1_concept": {
+      "Result": [
+        {
+          "label": "Hauts fonctionnaires",
+          "id": "027322610",
+          "score": 0.7638581153626636
+        },
+        {
+          "label": "État",
+          "id": "027297942",
+          "score": 0.7440623350425135
+        },
+        {
+          "label": "Fédéralisme",
+          "id": "027826538",
+          "score": 0.737714937615626
+        },
+        {
+          "label": "Centralisation administrative",
+          "id": "027465853",
+          "score": 0.7310664369558111
+        },
+        {
+          "label": "Armée de métier",
+          "id": "030768268",
+          "score": 0.7291465091067392
+        },
+        {
+          "label": "Service militaire obligatoire",
+          "id": "050549928",
+          "score": 0.7253427565342923
+        }
+      ],
+      "ResponseTime": "0.09 secondes"
+    },
+    "victor2": {
+      "Result": [
+        {
+          "label": "Classes dirigeantes",
+          "id": "027223345",
+          "score": 0.6716704033357916
+        },
+        {
+          "label": "Hauts fonctionnaires",
+          "id": "027322610",
+          "score": 0.6692576043596348
+        },
+        {
+          "label": "Élite (sciences sociales)",
+          "id": "027225224",
+          "score": 0.6563994626198374
+        },
+        {
+          "label": "Pouvoir (sciences sociales)",
+          "id": "027365581",
+          "score": 0.6537038100972423
+        },
+        {
+          "label": "Pouvoir exécutif",
+          "id": "027836622",
+          "score": 0.6521094623337023
+        },
+        {
+          "label": "Forces armées françaises",
+          "id": "028235460",
+          "score": 0.6428029516927859
+        }
+      ],
+      "ResponseTime": "0.14 secondes"
+    }
+  },
+  "PredictionByAggregation": {
+    "union": [
+      {
+        "label": "Centralisation administrative",
+        "id": "027465853"
+      },
+      {
+        "label": "État",
+        "id": "027297942"
+      },
+      {
+        "label": "Forces armées françaises",
+        "id": "028235460"
+      },
+      {
+        "label": "Fédéralisme",
+        "id": "027826538"
+      },
+      {
+        "label": "Service militaire obligatoire",
+        "id": "050549928"
+      },
+      {
+        "label": "Pouvoir exécutif",
+        "id": "027836622"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "id": "027223345"
+      },
+      {
+        "label": "Armée de métier",
+        "id": "030768268"
+      },
+      {
+        "label": "Monarchie",
+        "id": "050124277"
+      },
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "id": "027225224"
+      },
+      {
+        "label": "Élite (sciences sociales)--Histoire",
+        "id": "027225224--02726470X"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "id": "027365581"
+      }
+    ],
+    "intersection": [
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      }
+    ],
+    "intersection2models": [
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "id": "027225224"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "id": "027365581"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "id": "027223345"
+      }
+    ],
+    "intersection2Models1Best": [
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "id": "027225224"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "id": "027365581"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "id": "027223345"
+      }
+    ],
+    "llm": [
+      {
+        "label": "Centralisation administrative",
+        "id": "027465853"
+      },
+      {
+        "label": "État",
+        "id": "027297942"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "id": "027223345"
+      },
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "id": "027225224"
+      },
+      {
+        "label": "Élite (sciences sociales)--Histoire",
+        "id": "027225224--02726470X"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "id": "027365581"
+      }
+    ],
+    "llm_good": [
+      {
+        "label": "État",
+        "id": "027297942"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "id": "027223345"
+      },
+      {
+        "label": "Hauts fonctionnaires",
+        "id": "027322610"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "id": "027225224"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "id": "027365581"
+      }
+    ],
+    "llm_scores": [
+      {
+        "label": "État",
+        "score": 1,
+        "id": "027297942"
+      },
+      {
+        "label": "Hauts fonctionnaires",
+        "score": 0.95,
+        "id": "027322610"
+      },
+      {
+        "label": "Classes dirigeantes",
+        "score": 0.9,
+        "id": "027223345"
+      },
+      {
+        "label": "Élite (sciences sociales)",
+        "score": 0.9,
+        "id": "027225224"
+      },
+      {
+        "label": "Centralisation administrative",
+        "score": 0.8,
+        "id": "027465853"
+      },
+      {
+        "label": "Pouvoir (sciences sociales)",
+        "score": 0.8,
+        "id": "027365581"
+      },
+      {
+        "label": "Élite (sciences sociales)--Histoire",
+        "score": 0.7,
+        "id": "027225224--02726470X"
+      },
+      {
+        "label": "Fédéralisme",
+        "score": 0.1,
+        "id": "027826538"
+      },
+      {
+        "label": "Service militaire obligatoire",
+        "score": 0.1,
+        "id": "050549928"
+      },
+      {
+        "label": "Armée de métier",
+        "score": 0.1,
+        "id": "030768268"
+      },
+      {
+        "label": "Monarchie",
+        "score": 0.05,
+        "id": "050124277"
+      }
+    ]
+  }
+}
